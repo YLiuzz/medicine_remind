@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".progress"></activity>
-        <!-- <meta-data -->
+        <activity android:name=".firstSession"></activity>
+        <activity android:name=".mytreatment" />
+        <activity android:name=".team" />
+        <activity android:name=".progress" /> <!-- <meta-data -->
         <!-- android:name="com.google.android.actions" -->
         <!-- android:resource="@xml/first session" /> -->
         <activity android:name=".MainActivity">
