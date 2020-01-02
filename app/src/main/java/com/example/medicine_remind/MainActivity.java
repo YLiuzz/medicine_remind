@@ -44,8 +44,17 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                     break;
                 case R.id.btn_progress:
-                    Intent intent1 = new Intent(MainActivity.this,progress.class);
-                    startActivity(intent1);
+                    Intent intent_today = new Intent(MainActivity.this,progress.class);
+                    startActivity(intent_today);
+                    break;
+                case  R.id.btn_team:
+                    Intent intent_team = new Intent(MainActivity.this,team.class);
+                    startActivity((intent_team));
+                    break;
+                case  R.id.btn_my_treatment:
+                    Intent intent_mytreatment = new Intent(MainActivity.this,mytreatment.class);
+                    startActivity((intent_mytreatment));
+                    break;
             }
         }
     };
